@@ -11,7 +11,7 @@ st-countrylist is a web component built with [Stencil](https://stenciljs.com/) t
 To try this component:
 
 ```bash
-git clone git@github.com:andregoncalves/stencil-countrylist.git 
+git clone git@github.com:andregoncalves/stencil-countrylist.git
 cd stencil-countrylist
 git remote rm origin
 ```
@@ -38,7 +38,7 @@ npm start
 
 ### In a stencil-starter app
 - Run `npm install stencil-countrylist --save`
-- Add `{ name: 'stencil-countrylist' }` to your [collections](https://github.com/ionic-team/stencil-starter/blob/master/stencil.config.js#L5)
+- Add this import to your root component or root module: `import 'stencil-countrylist'`;
 - Then you can use the element `<st-countrylist>` anywhere in your template, JSX, html etc
 
 ## Parameters
