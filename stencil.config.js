@@ -1,12 +1,10 @@
 exports.config = {
   namespace: 'countrylist',
   generateDistribution: true,
-  bundles: [
-    { components: ['st-countrylist'] }
-  ]
+  serviceWorker: false
 };
 
 exports.devServer = {
   root: 'www',
   watchGlob: '**/**'
-};
+}
