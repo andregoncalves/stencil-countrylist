@@ -1,9 +1,9 @@
 {
   "name": "stencil-countrylist",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A web component to add a select/dropdown list of countries and their respective ISO country codes (ISO-3166-1 - Alpha 2 Codes)",
   "main": "dist/countrylist.js",
-  "types": "dist/types/components.d.ts",
+  "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "files": [
     "dist/"
@@ -18,7 +18,7 @@
     "test.watch": "jest --watch --no-cache"
   },
   "dependencies": {
-    "@stencil/core": "^0.6.4"
+    "@stencil/core": "latest"
   },
   "devDependencies": {
     "@stencil/dev-server": "latest",
